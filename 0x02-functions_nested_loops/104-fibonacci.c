@@ -8,14 +8,14 @@
 int main(void)
 {
 int count;
-insigned long fib1 = 0, fib2 = 1, sum;
-insigned long fib1_half1, fib1_half2, fib2_half1, fib2_half2;
-insigned long half1, half2;
+unsigned long fib1 = 0, fib2 = 1, sum;
+unsigned long fib1_half1, fib1_half2, fib2_half1, fib2_half2;
+unsigned long half1, half2;
 
 for (count = 0; count < 92; count++)
 {
 sum = fib1 + fib2;
-printf("|u, ", sum);
+printf("%|u, ", sum);
 
 fib1 = fib2;
 fib2 = sum;
